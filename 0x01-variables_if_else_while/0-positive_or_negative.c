@@ -1,21 +1,21 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+/*main code n if positive or negative or zero  */
 
-/* betty style doc for function main goes there */
+/* Return always 0 */
 int main(void)
 {
 int n;
 if (n==0)
 {
-printf("number n is zero\n");
+printf("number n is zero\n",n);
 }
-else if (n%2==0)
+else if (n>0)
 {
-printf("number n is positive \n");
+printf("number n is positive \n",n);
 }
-else if(n%2==1)
+else if(n<0)
 {
-printf("number n is negative \n");
+printf("number n is negative \n",n);
 }
 }
