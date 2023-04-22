@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <string.h> 
+#include <stdio.h> 
 /**
  * main -I sometimes suffer from insomnia. And when I can't fall asleep, I play what I call the alphabet game
  *
@@ -7,11 +6,11 @@
  */
 int main(void)
 {
-char alpha[26] ="abcdefghijklmnopqrstuvwxyz";
-int i ;
-for (i = 0; i < 26 ; i++)
+int n = 97;
+while (n <= 122)
 {
-putchar(alpha[i]);
+putchar(n);
+n++;
 }
 putchar("\n");
 return (0);
